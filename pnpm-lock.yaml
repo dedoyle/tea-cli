@@ -1,0 +1,104 @@
+dependencies:
+  chalk: 4.1.0
+  commander: 7.1.0
+  didyoumean: 1.2.1
+  minimist: 1.2.5
+  semver: 7.3.4
+lockfileVersion: 5.2
+packages:
+  /ansi-styles/4.3.0:
+    dependencies:
+      color-convert: 2.0.1
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-7dgDYornHATIWuegkG7a00tkiTc=
+      tarball: ansi-styles/download/ansi-styles-4.3.0.tgz
+  /chalk/4.1.0:
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
+      tarball: chalk/download/chalk-4.1.0.tgz
+  /color-convert/2.0.1:
+    dependencies:
+      color-name: 1.1.4
+    dev: false
+    engines:
+      node: '>=7.0.0'
+    resolution:
+      integrity: sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=
+      tarball: color-convert/download/color-convert-2.0.1.tgz
+  /color-name/1.1.4:
+    dev: false
+    resolution:
+      integrity: sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
+      tarball: color-name/download/color-name-1.1.4.tgz
+  /commander/7.1.0:
+    dev: false
+    engines:
+      node: '>= 10'
+    resolution:
+      integrity: sha1-8urs8THxDjbgfYlGmCJuNq4Otf8=
+      tarball: commander/download/commander-7.1.0.tgz?cache=0&sync_timestamp=1613397184151&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-7.1.0.tgz
+  /didyoumean/1.2.1:
+    dev: false
+    resolution:
+      integrity: sha1-6S7f2tplN9SE1zwBcv0eugxJdv8=
+      tarball: didyoumean/download/didyoumean-1.2.1.tgz
+  /has-flag/4.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
+      tarball: has-flag/download/has-flag-4.0.0.tgz
+  /lru-cache/6.0.0:
+    dependencies:
+      yallist: 4.0.0
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
+      tarball: lru-cache/download/lru-cache-6.0.0.tgz
+  /minimist/1.2.5:
+    dev: false
+    resolution:
+      integrity: sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+      tarball: minimist/download/minimist-1.2.5.tgz
+  /semver/7.3.4:
+    dependencies:
+      lru-cache: 6.0.0
+    dev: false
+    engines:
+      node: '>=10'
+    hasBin: true
+    resolution:
+      integrity: sha1-J6qn0uTKdkUvmNOt0JOnLJQ+3Jc=
+      tarball: semver/download/semver-7.3.4.tgz?cache=0&sync_timestamp=1606868608439&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsemver%2Fdownload%2Fsemver-7.3.4.tgz
+  /supports-color/7.2.0:
+    dependencies:
+      has-flag: 4.0.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
+      tarball: supports-color/download/supports-color-7.2.0.tgz
+  /yallist/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
+      tarball: yallist/download/yallist-4.0.0.tgz
+specifiers:
+  chalk: ^4.1.0
+  commander: ^7.1.0
+  didyoumean: ^1.2.1
+  minimist: ^1.2.5
+  semver: ^7.3.4
