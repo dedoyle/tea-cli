@@ -31,5 +31,10 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-alloy": "^3.10.0"
   }
 }

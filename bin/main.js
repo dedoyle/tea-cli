@@ -4,7 +4,7 @@ const chalk = require('chalk') // 命令行输出美化
 const didYouMean = require('didyoumean') // 简易的智能匹配引擎
 const semver = require('semver') // npm的语义版本包
 const enhanceErrorMessages = require('../lib/util/enhanceErrorMessages.js')
-const package = require('../package.json')
+const packageJson = require('../package.json')
 
 didYouMean.threshold = 0.6
 
@@ -28,11 +28,13 @@ function checkNodeVersion(wanted, cliName) {
 }
 
 // 检测node版本
-checkNodeVersion(package.engines.node, '@tea/cli')
+checkNodeVersion(packageJson.engines.node, '@tea/cli')
 
-program.version(package.version, '-v --version').usage('<command> [options]')
+program.version(packageJson.version, '-v --version').usage('<command> [options]')
 
 // 创建命令
+// tea create xxx xxx
+// ['**/node', '**/tea/bin/main.js', 'create', 'xxx', 'xxx']
 program
   .command('create <template-name> <app-name>')
   .description('create a new project from a template')
